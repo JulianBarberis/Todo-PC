@@ -4,3 +4,34 @@
   color: white; 
 };
 
+.card{
+  width: 20rem;
+}
+
+.cardProductos{
+  width: 20rem;
+  margin: 4px;
+  display: flex;
+  margin: 2rem;
+  justify-content: space-evenly;
+};
+
+.contador{
+  cursor:default;
+};
+
+.total{
+  display: flex;
+  justify-content: flex-start;
+};
+
+.contenidoCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+};
+
+.itemDetail{
+  max-width: 540px;
+  margin-top: 20px;
+}

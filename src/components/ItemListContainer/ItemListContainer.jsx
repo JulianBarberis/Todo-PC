@@ -12,13 +12,14 @@ const ItemListContainer = ({ greeting }) => {
     useEffect(() => {
         if(categoria){
             consultarBDD('../json/productos.json').then(products => {
-                const productsList= productos.filter(producto => producto.stock > 0).filter(producto => producto.idCategoria === parseInt(categoria))
-                const cardProductos = ItemList({ productsList })
+                const productList= products.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === parseInt(categoria))
+                const cardProductos = ItemList({ productList })
                 setProductos(cardProductos)
 
             });
         }else{
-            consultarBDD('./json/productos.json').then(productList => {
+            consultarBDD('./json/productos.json').then(products => {
+                const productList= products.filter(prod => prod.stock > 0)
                 const cardProductos = ItemList({ productList })
                 setProductos(cardProductos)
 

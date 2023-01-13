@@ -15,3 +15,7 @@ npm i
 * [React-Toastify] (https://fkhadra.github.io/react-toastify/Introduction/)
 - React-Toastify
 * [Firestore] (https://firebase.google.com/) - NoSQL Database
+
+## Video del Funcionamiento
+
+![alt text](https://github.com/JulianBarberis/Todo-PC/blob/main/docs/funcionamiento_de_la_web.gif)

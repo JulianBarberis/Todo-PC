@@ -1,4 +1,10 @@
+.navbarTitle{
+    font-size: 2rem;
+}
 
+a{
+    text-decoration: none;
+}
 
 .navbarDark{
     color: white;

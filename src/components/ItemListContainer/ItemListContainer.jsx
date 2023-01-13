@@ -22,16 +22,8 @@ const ItemListContainer = () => {
                     setProductos(cardProductos)
                 })
             }
-        // "6PaN8Zd8FktkPHBrEy6b"
-        // cargarBDD().then(productos => console.log(productos))
-        // getProductos().then(productos => console.log(productos))
-        // getProducto("9gKnlmAynltKBqzRUhjn").then(prod => console.log(prod))
 
-        // getProducto("x9L1AJ1dK9CKTFVD62y7").then(prod =>{
-        //     prod.stock-=5
-        //     delete prod.id
-        //     updateProducto(prod.id,prod).then(estado =>console.log(estado))
-        // })
+    //cargarBDD().then(productos => console.log(productos)) //CARGAR PRODUCTOS
 
     },[category]);
 

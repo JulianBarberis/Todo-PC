@@ -1,21 +1,18 @@
-//GENERAR CARD PRODUCTO
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useDarkModeContext } from "../../context/DarkModeContext";
+const Item = ({prod}) => {
 
-
-const Item = ({ producto }) => {
-
+    const {darkMode} = useDarkModeContext()
     return (
-
-            <div className="card border-dark mb-3 cardProductos">
-                <img src={`../img/${producto.img}`} className="card-img-top" alt="..." />
-                <div className="card-body contenidoCard">
-
-                    <h5 className="card-title">{producto.marca}</h5>
-                    <p className="card-text">{producto.nombre} {producto.modelo}</p>
-                    <p className="card-text">Precio =$ {new Intl.NumberFormat("de-DE").format(producto.precio)}</p>
-                    <button className="btn btn-dark"><Link className="nav-link" to={`/producto/${producto.id}`}>Ver Producto</Link></button>
-                </div>
-            </div>
+        <div className={`card mb-4 cardProducto ${darkMode ? 'text-white bg-primary' : 'border-light'}`}>
+                        <img src={prod.img} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">{prod.nombre} {prod.modelo}</h5>
+                            <p className="card-text">{prod.marca}</p>
+                            <p className="card-text">$ {new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
+                            <button className={` btn ${darkMode ? 'btn-dark' : 'btn-primary'}`}><Link className="nav-link" to={`/product/${prod.id}`}>Ver Producto</Link></button>
+                        </div>
+        </div>
     );
 }
 

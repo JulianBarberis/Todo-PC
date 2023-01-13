@@ -1,37 +1,80 @@
-.carrito{
-  border: none;
-  background-color: transparent;
-  color: white; 
-};
 
-.card{
-  width: 20rem;
+
+.navbarDark{
+    color: white;
 }
 
-.cardProductos{
-  width: 20rem;
-  margin: 4px;
-  display: flex;
-  margin: 2rem;
-  justify-content: space-evenly;
-};
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: hsl(0, 0%, 97%);
+}
 
-.contador{
-  cursor:default;
-};
 
-.total{
-  display: flex;
-  justify-content: flex-start;
-};
+.cardBody {
+    background-color: white;
+    margin-bottom: 3px;
+    text-align: center;
+}
 
-.contenidoCard{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-};
+.cardBodyDark {
+    background-color: hsl(0, 0%, 33%);
+    margin-bottom: 3px;
+    text-align: center;
+}
 
-.itemDetail{
-  max-width: 540px;
-  margin-top: 20px;
+img {
+    margin-top:3px;
+}
+
+.cardProductos {
+    margin: 1rem;
+    align-items:center;
+    justify-content: center;
+}
+
+.cartWidget {
+    margin-right: 40px;
+    color:gray;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.cantCarrito {
+    position: relative;
+    left: 15%;
+}
+
+.darkMode {
+    background-color:black;
+    color:gainsboro;
+}
+
+.itemDetail {
+    max-width: 40%;
+    margin-top: 20px;
+}
+
+.imgBody {
+    display:block;
+    margin:auto;
+    max-height: 100%;
+}
+
+.cartContainer {
+    margin-top:3%;
+    margin-left: 26.5%;
+}
+
+.divButtons button{
+    margin:4px;
+}
+
+@media (max-width:991px) {
+    .cartWidget {
+        color:white;
+        margin-bottom: 10px;
+    }
 }

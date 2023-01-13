@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": 3,
         "nombre": "Mouse",
         "marca": "ASUS",
         "modelo": "ROG Gladius II Wireless RGB",
         "precio": 22000,
         "stock": 10,
-        "img": "mouse_asus_rog_gladius_ii.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/mouse_asus_rog_gladius_ii.jpg?alt=media&token=efb0ba3f-e5ad-489c-95ae-6a5034a079ff"
     },
     {
         "id": 2,
-        "idCategoria": 1,
+        "idCategoria": 3,
         "nombre": "Auriculares",
         "marca": "Hyper X",
         "modelo": "Cloud Flight Wireless",
         "precio": 25000,
         "stock": 20,
-        "img": "auriculares_hyperx_cloud_flight_wireless.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/auriculares_hyperx_cloud_flight_wireless.jpg?alt=media&token=45a7a287-480f-4223-910b-ac0810f14f38"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "modelo": "TUF GT501",
         "precio": 43000,
         "stock": 15,
-        "img": "gabinete_asus_tuf_gt501.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/gabinete_asus_tuf_gt501.jpg?alt=media&token=2e5d89ae-3c9b-4b4f-ba56-06ccea5cf115"
     },
     {
         "id": 4,
@@ -37,37 +37,37 @@
         "modelo": "PRIME A520M-K AM4",
         "precio": 19899,
         "stock": 14,
-        "img": "mother_asus_prime_a520m-k.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/mother_asus_prime_a520m-k.jpg?alt=media&token=42bce6ad-5b1e-4534-8c62-7e2fd6a86880"
     },
     {
         "id": 5,
-        "idCategoria": 3,
+        "idCategoria": 1,
         "nombre": "Monitor",
         "marca": "LG",
         "modelo": "LED 19 19M38A-B",
         "precio": 40000,
         "stock": 7,
-        "img": "monitor_lg_led_19M38A-B.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/monitor_lg_led_19M38A-B.jpg?alt=media&token=cdfa6353-d3b9-465e-88bd-7951ec5067a3"
     },
     {
         "id": 6,
-        "idCategoria": 1,
+        "idCategoria": 3,
         "nombre": "Teclado",
         "marca": "Hyper X",
         "modelo": "HP Alloy CORE RGB",
         "precio": 7000,
         "stock": 20,
-        "img": "teclado_hp_hyperx_alloy_core_rgb.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/teclado_hp_hyperx_alloy_core_rgb.jpg?alt=media&token=81d06d1a-800b-44c9-b392-dfb6d050e3f1"
     },
     {
         "id": 7,
-        "idCategoria": 3,
+        "idCategoria": 1,
         "nombre": "Monitor",
         "marca": "ASUS",
         "modelo": "Full HD 21.5 VP228HE-J",
         "precio": 50000,
         "stock": 30,
-        "img": "monitor_asus_full_hd_vp228he-j.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/monitor_asus_full_hd_vp228he-j.jpg?alt=media&token=90df3719-e898-48e3-a637-190621ade84c"
     },
     {
         "id": 8,
@@ -77,16 +77,16 @@
         "modelo": "Core i3 10100 4.3GHz",
         "precio": 30000,
         "stock": 30,
-        "img": "procesador_intel_core_i3_10100_4.3ghz.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/procesador_intel_core_i3_10100_4.3ghz.jpg?alt=media&token=9325b1f9-25d0-4193-a6a6-c7f0626d4c30"
     },
     {
         "id": 9,
-        "idCategoria": 3,
+        "idCategoria": 1,
         "nombre": "Monitor",
         "marca": "LG",
         "modelo": "LED 24 24MP400-B",
         "precio": 55000,
         "stock": 30,
-        "img": "monitor_lg_led_24_24mp400-b.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/curso-react-7fbc3.appspot.com/o/monitor_lg_led_24_24mp400-b.jpg?alt=media&token=d290e6b2-66c9-440e-98d4-221092238194"
     }
 ]

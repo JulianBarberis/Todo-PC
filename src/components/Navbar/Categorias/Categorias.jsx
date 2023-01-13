@@ -7,13 +7,13 @@ const Categorias = () => {
                 <a className="nav-link" href="#"><Link className="nav-link" to={"/"}> Inicio</Link></a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#"><Link className="nav-link" to={"/categoria/1"}> Monitores</Link></a>
+                <a className="nav-link" href="#"><Link className="nav-link" to={"/category/1"}> Monitores</Link></a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#"><Link className="nav-link" to={"/categoria/2"}> Componentes</Link></a>
+                <a className="nav-link" href="#"><Link className="nav-link" to={"/category/2"}> Componentes</Link></a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#"><Link className="nav-link" to={"/categoria/3"}> Perifericos</Link></a>
+                <a className="nav-link" href="#"><Link className="nav-link" to={"/category/3"}> Perifericos</Link></a>
             </li>
       </ul>
     );

@@ -1,13 +1,10 @@
-//MODIFICAR MI ARRAY DE OBJETOS
-
 import Item from "../Item/Item";
 
-const ItemList = ({productList}) => {
-    console.log(productList)
+const ItemList = ({productsList}) => {
     return (
-        <div className="row total">
-            {productList.map(product =><Item key={product.id} producto = {product}/>)}
-        </div>
+        <>
+            {productsList.map(producto => <Item key={producto.id} prod = {producto}/>)}
+        </>
     );
 }
 
